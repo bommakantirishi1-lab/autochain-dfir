@@ -183,6 +183,26 @@ def render():
             unsafe_allow_html=True,
         )
 
+    # ── Forensic Tools Stack Banner ────────────────────────────────────────
+    st.markdown("<div style='height:4px'></div>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="background:#0E1117;border:1px solid #2A3142;border-radius:8px;padding:12px 16px;margin-bottom:4px">
+        <div style="font-size:10px;color:#6B7280;text-transform:uppercase;letter-spacing:0.8px;margin-bottom:10px">
+            🛠 Active Forensic Tooling Stack
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+            <span style="background:#1890FF18;color:#1890FF;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #1890FF33">🔷 Nuix 9.10</span>
+            <span style="background:#52C41A18;color:#52C41A;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #52C41A33">🔍 EnCase 22.4</span>
+            <span style="background:#FA8C1618;color:#FA8C16;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #FA8C1633">🧰 FTK Imager 4.7</span>
+            <span style="background:#722ED118;color:#722ED1;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #722ED133">📱 Magnet AXIOM 7</span>
+            <span style="background:#13C2C218;color:#13C2C2;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #13C2C233">🖥 OSForensics</span>
+            <span style="background:#FF4D4F18;color:#FF4D4F;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #FF4D4F33">🧠 Volatility3</span>
+            <span style="background:#EB2F9618;color:#EB2F96;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #EB2F9633">🌐 Wireshark</span>
+            <span style="background:#FFC53D18;color:#FFC53D;padding:4px 12px;border-radius:10px;font-size:11px;font-weight:600;border:1px solid #FFC53D33">⚡ KAPE + Chainsaw</span>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
     # ── Row 4: IOC distribution + Case types + Investigator load ──────────
     st.markdown("<hr/>", unsafe_allow_html=True)
     col_e, col_f, col_g = st.columns(3)

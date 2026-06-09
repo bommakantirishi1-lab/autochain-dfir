@@ -40,6 +40,7 @@ _PAGES = [
     ("p6_ioc",        "🌐  IOC Intelligence",       ""),
     ("p7_correlation","🔗  Correlation",            ""),
     ("p8_reports",    "📄  Report Center",          ""),
+    ("p9_forensic_tools", "🛠   Forensic Tools",    "NEW"),
 ]
 
 _PAGE_LABELS = [label for _, label, _ in _PAGES]
