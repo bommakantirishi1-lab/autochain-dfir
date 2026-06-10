@@ -1,7 +1,7 @@
-# EY DFIR AutoChain
+# AutoChain DFIR
 
-**Ernst & Young — Forensic & Integrity Services**  
-Enterprise Digital Forensics & Incident Response automation platform.
+**Enterprise Digital Forensics & Incident Response automation platform**
+Modelled on Big4 forensic workflows — ACPO/ISO 27037 evidence standards, MITRE ATT&CK, STIX 2.1.
 
 ---
 
